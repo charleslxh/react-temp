@@ -45,6 +45,7 @@
     "react-router-redux": "next",
     "redux": "^3.7.2",
     "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^4.3.0",
     "redux-thunk": "^2.2.0",
     "source-map-explorer": "^1.4.0",
     "style-loader": "0.18.2",
@@ -59,6 +60,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
+    "analyze": "source-map-explorer build/static/js/main.*",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
