@@ -1,5 +1,3 @@
-import 'whatwg-fetch'
-
 /*
  * A utils for RESTful API.
  * Params:

@@ -40,9 +40,6 @@ if (process.env.NODE_ENV !== 'production') {
     }
 }
 
-// 动态引入 Promise Polyfills
-if (!window.Promise) window.Promise = require('promise');
-
 // ================================
 // 将根组件挂载到 DOM，启动！
 // ================================
