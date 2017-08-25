@@ -6,6 +6,7 @@ import store from 'STORE';
 
 import userReducer from 'REDUCERS/user';
 import counterReducer from 'REDUCERS/counter';
+import counter2Reducer from 'REDUCERS/counter2';
 
 // ================================
 // 同步的 Reducers（即应用初始化所必需的）
@@ -14,6 +15,7 @@ const syncReducers = {
     router: routerReducer,
     user: userReducer,
     counter: counterReducer,
+    counter2: counter2Reducer,
     loadingBar: loadingBarReducer
 };
 
